@@ -58,7 +58,8 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+	/*font-family: 'Bangers', cursive;*/
+	font-family: 'Cormorant Garamond', serif;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
@@ -70,10 +71,16 @@ body{
 	margin: 50px;
 }
 
+.menu {
+	background-color: coral;
+	position: fixed;
+    top: 0; 
+}
+
 .menu nav{
 	display: inline-block;
 	margin: 40px 0;
-}
+	}
 
 .menu nav a{
 	margin: 0 22px;;
